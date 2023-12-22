@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    header {
+  width: 100%; /* Изменил ширину на 100% */
+  min-height: 100px; /* Минимальная высота в 100px, чтобы header не был слишком маленьким */
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  flex-grow: 1; /* Использование flex-grow для растяжения header */
+}
+
+    #logo {
+      max-width: 40%;
+      max-height: 100%;
+    }
+
+    #title {
+      flex-grow: 1;
+      margin-left: 20px;
+    }
+
+    nav {
+      width: 100%;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 10px;
+    }
+
+   #internal-links {
+  width: 40%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#internal-links a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+#internal-links a img {
+  max-width: 20px;
+  max-height: 20px;
+  margin-right: 5px;
+}
+
+main {
+  width: 60%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+    footer {
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <!-- Ваш логотип -->
+      <img src="гостиница.jpg" alt="Logo">
+    </div>
+    <div id="title">
+      <h1>Сайт для сдачи лабы</h1>
+      <p>ХАА</p>
+    </div>
+  </header>
+
+  <nav>
+    <!-- Ваша панель навигации -->
+    <ul>
+      <li><a href="#7 лаба.html">7 лаба</a></li>
+      <li><a href="#5 лаба 1.html">5 лаба 1 часть</a></li>
+      <li><a href="#5 лаба 2.html">5 лаба 2 часть</a></li>
+      <!-- Добавьте другие ссылки по необходимости -->
+    </ul>
+  </nav>
+
+  <div id="internal-links">
+    <!-- Ваша ссылочная панель -->
+    <a href="8 лаба 1.html"><img src="гостиница.jpg" alt="Lab 1"> 1 часть</a>
+    <a href="8 лаба 2.html"><img src="гостиница.jpg" alt="Lab 2"> 2 часть</a>
+	<a href="8 лаба 3.html"><img src="гостиница.jpg" alt="Lab 2"> 3 часть</a>
+    <!-- Добавьте другие ссылки по необходимости -->
+  </div>
+
+  <main>
+    <!-- Основной документ -->
+    <p>Сайт для сдачи лабы.</p>
+      
+  </main>
+<a href="экзамен.html"> на главную</a>
+  <footer>
+    <p>© 2023 ХАА. Все права защищены.</p>
+  </footer>
+</body>
+</html>
